@@ -1,0 +1,435 @@
+/* General modifications */
+
+body, html{
+    margin:0;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 3em;
+}
+
+.color-style{
+    color:#3ed8d1
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxx container title modifications xxxxxxxxxxxxxxxxxxxxxxx */
+
+/* setup the background image */
+.container-header{
+    background-image: url(../img/1_top_slider.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40em;
+}
+
+
+h1{
+    font-size: 10em;
+    margin: 0 auto;
+    width: 80%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: lighter;
+    color: white;
+    /* positionning the text */
+    position: relative;
+    top: 1.05em;
+}
+
+
+/* positionning the button */
+
+.container-header button{
+    position: relative;
+    top: 23em;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx section one modifications xxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.section-title{
+    margin: 0 auto;
+    text-align: center;
+    width: 65%;
+    padding-top: 7em;
+    padding-bottom: 15em;
+}
+
+hr{
+    border:1px solid lightgrey;
+    width: 10%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+blockquote, .sub-quote{
+    font-size: 1.5em
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx carrousel section modifications xxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:4em;
+    position: relative;
+    bottom:5em;
+}
+
+
+.h5{
+    font-size: 4em;
+    position: relative;
+    bottom: 2em
+}
+
+.h5-m{
+    position: relative;
+    bottom: 9em;
+    padding-left: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: darkgray;
+    font-weight: bolder;
+}
+
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 20px;
+}
+
+.carousel-caption{
+    margin: 0 auto;
+    width:30%;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx section card xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.card-section{
+    padding-bottom: 15em;
+    margin:0 auto;
+    width: 80%;
+}
+
+.card{
+    width:25em;
+    height:28em;
+}
+
+.card-body>hr{
+    width:35%;
+    margin: 1em auto;
+}
+
+.one{
+    position: relative;
+    top:-1.5em;
+}
+
+.qualcomm{
+    width: 7em;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.amoled{
+    width: 12em;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+
+.apn{
+    width: 9em;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx section card-reverse xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.card-reverse img{
+    width:4em;
+}
+
+h4, .card-reverse .card-text{
+    font-weight:lighter;
+    font-size: 1.6em;
+}
+
+.card-reverse-container{
+    margin:6em auto 0 auto;
+    width: 80%;
+}
+
+.card-one img, .card-two img, .card-three img{
+    height:77.5%;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx video xxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.embed-responsive{
+    position: relative;
+    top: -2.5em;
+    z-index:0
+}
+
+.video-text{
+    position: absolute;
+    top:10em;
+    margin:0 auto;
+    width:95%;
+    z-index: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx customize cards xxxxxxxxxxxxxxxxxxxxxxx */
+
+.card-section blockquote{
+    font-size:20px;
+    font-weight: lighter
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx grid xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxx gallery images xxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.container-grid{
+    margin-bottom: 6em;
+}
+
+.gallery-nav{
+    margin:5em auto 2em auto;
+    width:30%;
+}
+
+.row{
+    width:100%;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx buy you pure xxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.container-pure{
+    background-color: black;
+    height: 45em
+}
+
+.pure-title{
+    padding-top:8em;
+}
+
+.container-pure button{
+    margin-top:4em;
+    padding:1em 10em;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx container download xxxxxxxxxxxxxxxxxxxxxxx */
+
+.container-download{
+    height: 45em;
+}
+
+.specifications{
+    padding: 1em 5em;
+}
+
+.buttons{
+    margin:0 auto;
+    width:80%;
+    padding-bottom: 8em;
+}
+
+.user{
+    padding: 1em 9em;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxx social container xxxxxxxxxxxxxxxxxxxx */
+.container-follow{
+    margin:8em auto;
+    width:50%;
+}
+.social-buttons{
+    margin:0 auto;
+    padding-top: 2em;
+    width:80%;
+}
+
+.social-buttons .btn{
+    padding: 1em 5em;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxx footer xxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+footer{
+    background-color:black;
+    color:white;
+}
+
+.fa-chevron-circle-up{
+    font-size:4em;
+    padding-top:1em;
+    margin-bottom:.5em
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RESPONSIVE WEB DESIGN xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+                  
+@media screen and (max-width: 600px) {
+    /* responsive for header */
+    .container-header{
+        height: 20em;
+    }
+
+    h1{
+        font-size: 3.5em;
+        width: 100%;
+        position: relative;
+        top:35%;
+    }
+
+    .container-header button{
+        position: relative;
+        top:10em
+    }
+
+    /* responsive for section title */
+    .section-title{
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    /* responsive for carousel */
+
+    h3{
+        font-size:2em;
+        bottom:0;
+    }
+    
+    .h5{
+        font-size: 1em;
+        bottom: 0;
+    }
+    
+    .h5-m{
+        bottom: 0;
+        padding-left: 0;
+    }
+    
+    .carousel-caption{
+        margin: 0 auto;
+        width:70%;
+        height:90%;
+    }
+
+    /* responsive for cards */
+
+    .card-section{
+        padding-bottom: 2em;
+        margin:0 auto;
+        width: 90%;
+    }
+
+    .card{
+        width:30em;
+        margin: 2em auto;
+        height:20em;
+    }
+
+    /* responsive for card-reverse */
+    .card-reverse-container{
+        margin:0 auto;
+        width: 50%;
+    }
+
+    .card-reverse img{
+        padding-bottom:2em;
+    }
+
+    .card-one .card-img-top{
+        width:2.5em;
+        height: 15em;
+    }
+    .card-two .card-img-top{
+        width:2em;
+        height: 15em;
+    }
+    .card-three .card-img-top{
+        width:3em;
+        height: 15em;
+    }
+
+    /* responsive video */
+    .video-text{
+        position: absolute;
+        top:5em;
+        font-size:10px;
+        margin:0 auto;
+        width:95%;
+        z-index: 1;
+    }
+
+    /* responsive gallery */
+    .gallery-nav{
+        width:100%;
+    }
+
+    /* responsive gallery */
+    .container-grid{
+        margin-bottom: 0em;
+    }
+
+    /* responsive pure */
+    .container-pure{
+        height:28em;
+    }
+
+    .pure-title{
+        padding-top:4em;
+    }
+
+    .container-pure button{
+        padding:1em 3em;
+    }
+
+    /* responsive download */
+    .container-download{
+        height: 28em;
+    }
+    
+    .buttons{
+        margin:0 auto;
+        width:100%;
+        padding-bottom: 2em;
+    }
+
+    .specifications{
+        padding:0;
+        width:30%;
+    }
+    
+    .user{
+        padding:0 2em;
+    }
+
+    /* responsive social */
+    .container-follow{
+        margin:2em auto;
+        width:100%;
+    }
+
+    .social-buttons{
+        margin:0 auto;
+        padding-top: 0;
+    }
+
+    .social-buttons .btn{
+        padding: 1em 2em;
+    }
+}
